@@ -17,9 +17,6 @@ class Dashboard extends CI_Controller
     }
   }
 
-
-
-
   public function tambah_ke_keranjang($id)
   {
     $barang = $this->model_barang->find($id);

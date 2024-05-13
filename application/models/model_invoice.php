@@ -18,8 +18,7 @@ class model_invoice extends CI_Model
         date('s'),
         date('m'),
         date('d') + 1,
-        date('
-      Y')
+        date('Y')
       )),
     );
     $this->db->insert('tb_invoice', $invoice);

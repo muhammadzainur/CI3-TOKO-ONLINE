@@ -25,6 +25,7 @@ class Auth extends CI_Controller
       </div>');
         redirect('auth/login');
       } else {
+        //buat session
         $this->session->set_userdata('username', $auth->username);
         $this->session->set_userdata('role_id', $auth->role_id);
 

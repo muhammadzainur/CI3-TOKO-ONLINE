@@ -131,8 +131,9 @@
                                     <?php echo anchor('dashboard/detail_keranjang', $keranjang) ?>
                                 </li>
                             </ul>
-                            <div class="topbar-divider d-none d-sm-block"></div>
 
+
+                            <div class="topbar-divider d-none d-sm-block"></div>
                             <!-- Nav Item - User Information -->
                             <ul class="nav navrbar-nav navbar-right">
                                 <?php if ($this->session->userdata('username')) { ?>
@@ -146,10 +147,6 @@
                                 <?php } ?>
                             </ul>
                         </div>
-            </div>
-            </li>
-
-            </ul>
-
-            </nav>
-            <!-- End of Topbar -->
+                    </ul>
+                </nav>
+                <!-- End of Topbar -->

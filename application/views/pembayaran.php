@@ -10,7 +10,6 @@
             $grand_total = $grand_total + $item['subtotal'];
           }
           echo "<h4>Total Belanja Anda: Rp." . number_format($grand_total, 0, ',', '.');
-
         ?>
       </div><br><br>
       <h3>Input Alamat Pengiriman Dan Pembayaran</h3>

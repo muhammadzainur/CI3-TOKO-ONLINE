@@ -1,9 +1,10 @@
 <div class="container-fluid">
+
   <h4>Keranjang Belanja</h4>
   <table class="table table-bordered table-striped table-hover">
     <tr>
       <th>No</th>
-      <th>Nama Produk</th>
+      <th>Produk</th>
       <th>Jumlah</th>
       <th>harga</th>
       <th>Sub-Total</th>
